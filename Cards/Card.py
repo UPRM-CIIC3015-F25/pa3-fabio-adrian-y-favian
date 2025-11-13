@@ -38,3 +38,5 @@ class Card:
 
     def __str__(self): # Formated string of the card (Example: Ace♠)
         return f"{self.rank.name.capitalize()}{self.suit.value}"
+
+    # make a __lt__ function for sorting by suits maybe
