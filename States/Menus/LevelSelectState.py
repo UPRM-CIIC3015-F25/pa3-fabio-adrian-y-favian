@@ -92,7 +92,7 @@ class LevelSelectState(State):
                 #   Avoid unnecessary repetition—use clear condition structure to make the logic readable.
                 name_boss = lm.curSubLevel.bossLevel
                 if name_boss == "The Needle":
-                    self.playerInfo.amountOfHands = max(2, self.playerinfo.amountOfHands-2)
+                    self.playerInfo.amountOfHands = max(2, self.playerInfo.amountOfHands-2)
                 elif name_boss == "The Water":
                     self.playerInfo.amountOfDiscards = 0
                 elif name_boss == "The Manacle":
